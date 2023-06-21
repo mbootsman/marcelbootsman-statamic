@@ -21,7 +21,7 @@ module.exports = {
                 // Notice styling colors.
                 yellow: colors.amber,
                 // Success styling colors.
-                green: "#90ffe0",
+                green: "#14b8a6",
             },
             spacing: {
                 // Used for the mobile navigation toggle.

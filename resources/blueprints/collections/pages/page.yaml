@@ -22,6 +22,21 @@ tabs:
         fields:
           -
             import: page_builder
+      -
+        display: Template
+        fields:
+          -
+            handle: template
+            field:
+              hide_partials: true
+              blueprint: false
+              type: template
+              display: Template
+              icon: template
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
   seo:
     display: SEO
     sections:

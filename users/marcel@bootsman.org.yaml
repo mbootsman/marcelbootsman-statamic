@@ -2,3 +2,7 @@ name: Marcel
 super: true
 id: 9ee9b5d3-6247-4f7a-80d0-f5574e1a355a
 password_hash: $2y$10$D8mSy1p18EKHRzgMIfFlx.7xLlktplnUMcGOa/3clf69n.duGRYZ6
+preferences:
+  collections:
+    pages:
+      after_save: continue_editing
