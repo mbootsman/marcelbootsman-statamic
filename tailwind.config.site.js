@@ -18,6 +18,7 @@ module.exports = {
         colors: {
             black: "#000",
             white: "#fff",
+            'stone-100': "rgb(245 245 244)",
             // Neutrals: neutral colors, with a default fallback if you don't need shades. Always set a DEFAULT when you use shades.
             neutral: {
                 DEFAULT: colors.slate["800"],

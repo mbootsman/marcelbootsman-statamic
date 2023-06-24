@@ -1,0 +1,11 @@
+{{ title }}
+{{ if featured_image }}
+<a href="{{ url }}">
+    {{ glide :src="featured_image" width="1280" height="600" fit="crop"}}
+    <img class="mb-2" src="{{ url }}" width="{{ width }}" height="{{ height }}">
+    {{ /glide }}
+</a>
+{{ /if }}
+{{ page_builder scope="block" }}
+{{ partial src="page_builder/{type}" }}
+{{ /page_builder }}

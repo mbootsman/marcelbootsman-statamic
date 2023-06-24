@@ -12,7 +12,7 @@
                 {{ unless (now | format('Y')) == configuration:copyright_since }}
                     - {{ now | format('Y') }}
                     {{ /unless }}
-                {{ configuration:copyright_name ?? config:app:name }}
+                {{ configuration:copyright_name ?? config:app:name }} - Powered by <a href="https://statamic.com/">Statamic</a>
             </span>
 
             {{# Let's users reset their cookie consent when you use the cookie banner. #}}

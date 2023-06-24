@@ -1,0 +1,56 @@
+{{#
+@name blog / index
+@desc Archive template for Blog collection
+#}}
+
+<!-- /blog/index.antlers.html -->
+<main class="prose fluid-container outer-grid" id="content">
+    <h1>{{ title }}</h1>
+    {{ page_builder scope="block" }}
+    {{ partial src="page_builder/{type}" }}
+    {{ /page_builder }}
+
+    {{ collection:blog as "blog" }}
+    {{ if no_results }}
+    <h2 class="text-2xl">No articles found!</h2>
+    {{ /if }}
+
+
+    {{ /collection:blog }}
+
+    <section class="col-span-4 md:col-span-3">
+        {{ collection:blog as="blogs" sort="date:desc"}}
+
+        {{ blogs group_by="date| Y" }}
+
+        {{ groups }} {{# Years #}}
+        <div class="border-solid border-b-2 ">
+            <h2>{{ group }}<sup class="p-1" style="color: #707070;">{{ items | count }}</sup></h2>
+            {{ items group_by="date| F" }}
+
+            {{groups}}{{# Months #}}
+            <div class="flex flex-wrap w-full">
+                <div class="w-full md:w-1/4">
+                    <h3 class="m-2">{{ group }}<sup class="p-1" style="color: #707070;">{{ items | count }}</sup></h3>
+                </div>
+                {{ items }}
+                <div class="w-full md:w-3/4">
+                    <div class="m-2"><a href="{{ url }}">{{ title }}</a></div>
+                </div>
+                {{/items}}
+            </div>
+            {{ /groups }}{{# End Months #}}
+
+            {{ /items }}
+        </div>
+        {{ /groups }}{{# End Years #}}
+
+
+
+        {{ /blogs }}
+
+        {{ /collection:blog }}
+    </section>
+
+</main>
+<!-- End: /blog/index.antlers.html -->

@@ -3,12 +3,24 @@ data:
   social_media:
     -
       id: lbki4z8e
-      handle: 'https://mastodon.social/@robdekort'
+      handle: 'https://toot.re/@mbootsman'
       type: mastodon
       enabled: true
     -
       id: trJdEAn4
-      handle: studio1902
+      handle: mbootsman
       prefix: 'https://www.github.com/'
       type: github
+      enabled: true
+    -
+      id: lj65j6gu
+      handle: in/marcelbootsman/
+      prefix: 'https://www.linkedin.com/'
+      type: linkedin
+      enabled: true
+    -
+      id: lj65ozxx
+      handle: marcel@bootsman.org
+      prefix: 'mailto:'
+      type: email
       enabled: true

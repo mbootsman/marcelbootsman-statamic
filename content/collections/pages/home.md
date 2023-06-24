@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Home
 updated_by: 9ee9b5d3-6247-4f7a-80d0-f5574e1a355a
-updated_at: 1687346622
+updated_at: 1687377781
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -135,39 +135,6 @@ page_builder:
             type: text
             text: '. Soon after that event, I made the decision to stop my work at nostromo.nl, and work for Kinsta.'
     type: article
-    enabled: true
-  -
-    id: qB2eJhfZ
-    title: Features
-    link_blocks:
-      -
-        id: X1OEWblt
-        title: 'Check out a form'
-        text: "Peak renders forms and mail templates dynamically so you can add as many forms as you'd like, just by creating them in the CP. Peak ships with a default basic contact form you can edit."
-        label: 'Send a form'
-        target_blank: false
-        link_type: entry
-        entry: 5c526dbf-9dd7-4c52-98d8-54e00ebddfb6
-        button_type: inline
-      -
-        id: 0zSDXh0j
-        title: 'Long form content'
-        text: 'For long form content you can use the Article content block. This is a Bard fieldtypeopen in new window with multiple sets of fields that are regularly used in longer articles.'
-        label: 'Read an article'
-        target_blank: false
-        link_type: entry
-        entry: 20f6a148-63b8-47a8-9b0e-d57095d78c21
-        button_type: inline
-      -
-        id: x9h48fku
-        title: 'Way more features'
-        text: 'Professional SEO, social image generation, responsive assets, appearance globals, favicons generation, search templates, dark mode support with toggle, pagination template, search and additional bottles of oxygen.'
-        label: 'Scavenge the docs'
-        target_blank: true
-        link_type: url
-        url: 'https://peak.1902.studio/'
-        button_type: inline
-    type: link_blocks
     enabled: true
 template: home
 ---
