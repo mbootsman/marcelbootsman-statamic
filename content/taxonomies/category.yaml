@@ -1,0 +1,6 @@
+title: Category
+preview_targets:
+  -
+    label: category
+    url: '{permalink}'
+    refresh: true

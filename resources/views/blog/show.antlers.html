@@ -1,11 +1,32 @@
-{{ title }}
+<main class="prose fluid-container" id="content">
+<h1 class="block">{{ title }}</h1>
+<span class="block text-sm text-stone-400 -mt-4">{{ date }} </span>
 {{ if featured_image }}
-<a href="{{ url }}">
-    {{ glide :src="featured_image" width="1280" height="600" fit="crop"}}
-    <img class="mb-2" src="{{ url }}" width="{{ width }}" height="{{ height }}">
+    {{ glide :src="featured_image" width="1150"}}
+    <img class="mb-2 rounded-md" src="{{ url }}" width="{{ width }}" height="{{ height }}">
     {{ /glide }}
-</a>
+
 {{ /if }}
 {{ page_builder scope="block" }}
 {{ partial src="page_builder/{type}" }}
 {{ /page_builder }}
+
+{{# Add authorbox #}}
+{{ get_content from="/authorbox" }}
+<div class="border-2 rounded-md  bg-stone-200 p-4 my-4 w-full">
+    <div class="grid grid-cols-4">
+        {{ page_builder scope="block"}}
+        {{ if { type } == "avatar" }}
+        {{ partial src="page_builder/{type}" }}
+        {{ /if }}
+        {{ /page_builder}}
+
+        {{ page_builder scope="block"}}
+        {{ if { type } =="article" }}
+        {{ partial src="page_builder/{type}" }}
+        {{ /if}}
+        {{ /page_builder}}
+    </div>
+</div>
+{{ /get_content }}
+</main>

@@ -1,6 +1,8 @@
 title: Blog
 template: blog/show
 layout: layout
+taxonomies:
+  - category
 revisions: false
 route: '/{slug}'
 date: true

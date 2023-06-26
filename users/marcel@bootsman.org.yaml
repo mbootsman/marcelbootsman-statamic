@@ -6,3 +6,12 @@ preferences:
   collections:
     pages:
       after_save: continue_editing
+    blog:
+      columns:
+        - title
+        - og_image
+        - slug
+        - date
+        - status
+        - category
+      after_save: continue_editing
