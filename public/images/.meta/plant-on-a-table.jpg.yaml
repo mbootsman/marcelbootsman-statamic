@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Plant on a table'
 size: 69921
 last_modified: 1687631094
 width: 860

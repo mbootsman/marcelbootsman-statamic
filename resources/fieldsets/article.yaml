@@ -9,6 +9,8 @@ fields:
         - h3
         - bold
         - italic
+        - code
+        - codeblock
         - unorderedlist
         - orderedlist
         - quote
@@ -61,6 +63,86 @@ fields:
               fields:
                 -
                   import: table
+            code_block:
+              display: 'Code Block'
+              instructions: null
+              icon: programming-script-code-brackets
+              fields:
+                -
+                  handle: code
+                  field:
+                    theme: light
+                    mode: htmlmixed
+                    mode_selectable: true
+                    indent_type: tabs
+                    indent_size: 4
+                    key_map: default
+                    line_numbers: true
+                    line_wrapping: true
+                    antlers: false
+                    type: code
+                    display: Code
+                    icon: code
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    hide_display: false
+                -
+                  handle: language
+                  field:
+                    input_type: text
+                    antlers: false
+                    type: text
+                    display: Language
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    hide_display: false
+            notice_block:
+              display: 'Notice Block'
+              instructions: null
+              icon: alert-warning-exclamation-mark
+              fields:
+                -
+                  handle: notice
+                  field:
+                    buttons:
+                      - h2
+                      - h3
+                      - bold
+                      - italic
+                      - unorderedlist
+                      - orderedlist
+                      - removeformat
+                      - quote
+                      - anchor
+                      - image
+                      - table
+                    smart_typography: false
+                    save_html: false
+                    inline: false
+                    toolbar_mode: fixed
+                    reading_time: false
+                    fullscreen: true
+                    allow_source: true
+                    enable_input_rules: true
+                    enable_paste_rules: true
+                    remove_empty_nodes: false
+                    antlers: false
+                    link_noopener: false
+                    link_noreferrer: false
+                    target_blank: false
+                    always_show_set_button: false
+                    collapse: false
+                    previews: true
+                    type: bard
+                    display: Notice
+                    icon: bard
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    hide_display: false
         image_video:
           display: 'Image & video'
           instructions: "Sets with images or embeddable video's."
@@ -93,3 +175,4 @@ fields:
       smart_typography: true
       inline: false
       hide_display: false
+      always_show_set_button: false

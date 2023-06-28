@@ -1,0 +1,12 @@
+{{#
+@name Code
+@desc The code field component.
+#}}
+
+<!-- /components/_code_block.antlers.html -->
+<div class="p2 my-4 size-lg">
+    {{ torchlight :language="language" }}
+    {{ code | noparse | entities }}
+    {{ /torchlight }}
+</div>
+<!-- End: /components/_code_block.antlers.html -->

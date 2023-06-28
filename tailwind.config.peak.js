@@ -22,6 +22,7 @@ module.exports = {
                 yellow: colors.amber,
                 // Success styling colors.
                 green: "#14b8a6",
+                brightgreen: '#90ffe0',
             },
             spacing: {
                 // Used for the mobile navigation toggle.
@@ -43,7 +44,7 @@ module.exports = {
                 ":root": {
                     // Fluid typography from 1 rem to 1.2 rem with fallback to 16px.
                     fontSize: "100%",
-                    "font-size": "clamp(1rem, 1.6vw, 1.2rem)",
+                    "font-size": "clamp(1rem, 1.6vw, 1.1rem)",
                     // Safari resize fix.
                     minHeight: "0vw",
                 },
