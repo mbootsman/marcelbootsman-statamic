@@ -20,11 +20,7 @@
         {{ /page_builder}}
     </div>
 
-    {{ page_builder scope="block"}}
-    {{ if {type} == "link_blocks"}}
-    {{ partial src="page_builder/{type}" }}
-    {{ /if }}
-
-    {{ /page_builder}}
+    {{ partial src="layout/homeblogs" }}
+    {{ partial src="layout/homenotes" }}
 </main>
 <!-- End: /home.antlers.html -->

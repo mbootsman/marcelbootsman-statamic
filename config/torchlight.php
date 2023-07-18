@@ -50,7 +50,7 @@ return [
         'lineNumbers' => true,
 
         // Control the `style` attribute applied to line numbers.
-        'lineNumbersStyle' => 'color: #e7e5e4; padding-right:0.25rem; user-select: none',
+        'lineNumbersStyle' => 'color: #e7e5e4; padding-right:0.5rem; user-select: none',
 
         // Turn on +/- diff indicators.
         // 'diffIndicators' => true,

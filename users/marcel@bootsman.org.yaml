@@ -14,4 +14,6 @@ preferences:
         - date
         - status
         - category
-      after_save: continue_editing
+  assets:
+    images:
+      mode: grid
