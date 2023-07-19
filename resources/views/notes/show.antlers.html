@@ -2,11 +2,11 @@
     <h1 class="block">{{ title }}</h1>
     <span class="block text-sm text-stone-400 my-4">{{ date }} </span>
     {{ category }}
-    <a href="/category/{{ slug }}" class="category text-xs p-2 my-4 mr-2 rounded-md bg-stone-200 hover:bg-brightgreen">{{ title }} </a>
+    <a href="/category/{{ slug }}" class="text-xs p-2 my-4 mr-2 rounded-md bg-stone-200 hover:bg-brightgreen">{{ title }} </a>
     {{ /category }}
     {{ if featured_image }}
-    {{ glide :src="featured_image" width="900" height="400"}}
-    <img class="mb-2 rounded-md" src="{{ url }}" width="{{ width }}" height="{{ height }}"" alt="{{ alt }}">
+    {{ glide :src="featured_image" width="860" height="450"}}
+    <img class="mb-2 rounded-md" src="{{ url }}" width="{{ width }}" height="{{ height }}" alt="{{ alt }}">
     {{ /glide }}
 
     {{ /if }}
@@ -16,7 +16,7 @@
 
     {{# Add authorbox #}}
     {{ get_content from="/authorbox" }}
-    <div class="authorbox border-2 rounded-md  bg-stone-200 p-4 my-8  w-full">
+    <div class="border-2 rounded-md  bg-stone-200 p-4 my-8  w-full">
         <div class="grid grid-cols-4">
             {{ page_builder scope="block"}}
             {{ if { type } == "avatar" }}

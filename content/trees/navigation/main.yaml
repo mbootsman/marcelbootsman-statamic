@@ -6,13 +6,5 @@ tree:
     id: 05354fee-cd6b-4baf-b170-f4d06afa80a4
     entry: 9ae2b1eb-c1eb-4728-9bd2-5452b2b082ba
   -
-    id: 5611d85b-6394-4253-b6ca-b10ef31c12b9
-    title: Examples
-    url: '#'
-    children:
-      -
-        id: 0d394cfc-013d-47c6-a12a-a992e077d846
-        entry: 20f6a148-63b8-47a8-9b0e-d57095d78c21
-      -
-        id: 7185b1e8-9e93-44eb-9d54-5869c1f8e4fd
-        entry: 5c526dbf-9dd7-4c52-98d8-54e00ebddfb6
+    id: b44bffba-c17b-49cb-adb1-4bd026ff9611
+    entry: 70c2e2c3-9a33-4128-8238-1b3f69e8c20a
