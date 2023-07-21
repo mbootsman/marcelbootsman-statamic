@@ -6,6 +6,14 @@ preferences:
   collections:
     pages:
       after_save: continue_editing
+    notes:
+      columns:
+        - title
+        - og_image
+        - slug
+        - date
+        - seo_description
+        - status
     blog:
       columns:
         - title
@@ -13,7 +21,7 @@ preferences:
         - slug
         - date
         - status
-        - category
+        - categories
   assets:
     images:
       mode: grid

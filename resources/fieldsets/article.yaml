@@ -16,6 +16,7 @@ fields:
         - quote
         - removeformat
         - anchor
+        - h4
       save_html: false
       toolbar_mode: fixed
       link_noopener: false

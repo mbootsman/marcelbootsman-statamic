@@ -2,7 +2,7 @@ title: Blog
 template: blog/show
 layout: layout
 taxonomies:
-  - category
+  - categories
 revisions: false
 route: '/{slug}'
 date: true

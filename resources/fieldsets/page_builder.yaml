@@ -41,6 +41,20 @@ fields:
               fields:
                 -
                   import: article
+            work:
+              display: Work
+              instructions: null
+              icon: money-bank
+              fields:
+                -
+                  import: article
+            connect:
+              display: Connect
+              instructions: null
+              icon: phone-telephone-call
+              fields:
+                -
+                  import: article
         avatar:
           display: Avatar
           instructions: null

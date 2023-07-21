@@ -1,6 +1,6 @@
-title: Category
+title: Categories
 preview_targets:
   -
-    label: category
+    label: categories
     url: '{slug}'
     refresh: true

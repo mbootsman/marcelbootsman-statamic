@@ -30,6 +30,9 @@
         content: "";
     }
 
+    body .work {
+        background-color: #d9d7d7;
+    }
     body code {
         margin: auto 4px;
         padding: 2px 4px;
@@ -42,6 +45,7 @@
 
     body.dark {
         background-color: #1d1e20;
+        color: #dadadb
     }
 
     body.dark img {
@@ -58,15 +62,17 @@
 
     body.dark .authorbox,
     body.dark .category,
+    body.dark .work,
     body.dark code,
     body.dark pre {
         background-color: #37383e;
         border: none;
     }
 
-body.dark .notice {
-    background-color: #005039;
-}
+    body.dark .notice {
+        background-color: #005039;
+    }
+
     body.dark #sun {
         color: #dadadb;
     }

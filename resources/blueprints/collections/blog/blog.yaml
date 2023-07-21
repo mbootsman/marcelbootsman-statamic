@@ -84,4 +84,17 @@ tabs:
               visibility: visible
               hide_display: false
               container: images
+          -
+            handle: categories
+            field:
+              type: terms
+              taxonomies:
+                - categories
+              display: Categories
+              mode: select
+              instructions_position: above
+              listable: hidden
+              visibility: visible
+              create: true
+              hide_display: false
 title: Blog

@@ -1,0 +1,16 @@
+{{#
+@name Connect
+@desc The connect page builder block. It extends the prose typography partial.
+@set page.page_builder.connect
+#}}
+
+<!-- /page_builder/connect.antlers.html -->
+<section class="connect col-span-4 md:col-span-3 p-4 rounded-md">
+    <h2 id="connect" class="mt-0">Connect</h2>
+    {{ partial:typography/prose as="article" class="contents" }}
+    {{ article }}
+    {{ partial src="components/{type}" }}
+    {{ /article }}
+    {{ /partial:typography/prose }}
+</section>
+<!-- End: /page_builder/connect.antlers.html -->

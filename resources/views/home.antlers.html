@@ -22,5 +22,20 @@
 
     {{ partial src="layout/homeblogs" }}
     {{ partial src="layout/homenotes" }}
+
+    <div class="fluid-container prose">
+        {{ page_builder scope="block"}}
+        {{ if { type } == "work" }}
+        {{ partial src="page_builder/{type}" }}
+        {{ /if }}
+        {{ /page_builder}}
+
+        {{ page_builder scope="block"}}
+        {{ if { type } == "connect" }}
+        {{ partial src="page_builder/{type}" }}
+        {{ /if }}
+        {{ /page_builder}}
+    </div>
+
 </main>
 <!-- End: /home.antlers.html -->
