@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "80c5c00c9800db80a1fd90116de02edc",
+    "content-hash": "a29115ccfe424105176b12150f95b0c9",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -5627,16 +5627,16 @@
         },
         {
             "name": "studio1902/statamic-peak-seo",
-            "version": "v4.0",
+            "version": "v4.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/studio1902/statamic-peak-seo.git",
-                "reference": "b4c533534586698033542ff5a3d9bd3eb5204bf2"
+                "reference": "c324bb21e48cd8f98864cfee01cd5a0d3a586f9c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/studio1902/statamic-peak-seo/zipball/b4c533534586698033542ff5a3d9bd3eb5204bf2",
-                "reference": "b4c533534586698033542ff5a3d9bd3eb5204bf2",
+                "url": "https://api.github.com/repos/studio1902/statamic-peak-seo/zipball/c324bb21e48cd8f98864cfee01cd5a0d3a586f9c",
+                "reference": "c324bb21e48cd8f98864cfee01cd5a0d3a586f9c",
                 "shasum": ""
             },
             "type": "library",
@@ -5659,7 +5659,7 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/studio1902/statamic-peak-seo/issues",
-                "source": "https://github.com/studio1902/statamic-peak-seo/tree/v4.0"
+                "source": "https://github.com/studio1902/statamic-peak-seo/tree/v4.0.1"
             },
             "funding": [
                 {
@@ -5667,7 +5667,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-07-13T09:41:58+00:00"
+            "time": "2023-07-15T19:02:56+00:00"
         },
         {
             "name": "studio1902/statamic-peak-tools",

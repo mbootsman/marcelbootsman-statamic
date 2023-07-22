@@ -19,7 +19,7 @@
         "statamic/ssg": "^2.1",
         "studio1902/statamic-peak-browser-appearance": "3.2",
         "studio1902/statamic-peak-commands": "^2.0",
-        "studio1902/statamic-peak-seo": "4.0",
+        "studio1902/statamic-peak-seo": "4.0.1",
         "studio1902/statamic-peak-tools": "^3.0",
         "torchlight/torchlight-laravel": "^0.5.13"
     },
