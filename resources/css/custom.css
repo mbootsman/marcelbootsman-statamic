@@ -64,7 +64,8 @@
     body.dark .category,
     body.dark .work,
     body.dark code,
-    body.dark pre {
+    body.dark pre,
+    body.dark nav div  {
         background-color: #37383e;
         border: none;
     }

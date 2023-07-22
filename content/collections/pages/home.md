@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Home
 updated_by: 9ee9b5d3-6247-4f7a-80d0-f5574e1a355a
-updated_at: 1689853359
+updated_at: 1690031409
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -45,7 +45,7 @@ page_builder:
             text: Statamic
           -
             type: text
-            text: ' is powering this website since June, 2023).'
+            text: ' is powering this website since July, 2023).'
       -
         type: heading
         attrs:

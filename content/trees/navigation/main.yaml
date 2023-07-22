@@ -8,3 +8,7 @@ tree:
   -
     id: b44bffba-c17b-49cb-adb1-4bd026ff9611
     entry: 70c2e2c3-9a33-4128-8238-1b3f69e8c20a
+  -
+    id: 6c6bee79-5cc1-4e39-aa14-3161664afa72
+    title: Categories
+    url: /categories

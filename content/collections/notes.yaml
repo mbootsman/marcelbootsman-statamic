@@ -1,6 +1,8 @@
 title: Notes
 template: notes/show
 layout: layout
+taxonomies:
+  - categories
 revisions: false
 route: '/notes/{slug}'
 date: true

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aa33244d533a687007486d5331ccd9f9",
+    "content-hash": "80c5c00c9800db80a1fd90116de02edc",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -5321,16 +5321,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v4.11.0",
+            "version": "v4.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "ba62a751f0c79b74a647c9dc48dab8c676710050"
+                "reference": "f8fcb062488507c2dc96e96b8a2377ce8c5c7246"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/ba62a751f0c79b74a647c9dc48dab8c676710050",
-                "reference": "ba62a751f0c79b74a647c9dc48dab8c676710050",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/f8fcb062488507c2dc96e96b8a2377ce8c5c7246",
+                "reference": "f8fcb062488507c2dc96e96b8a2377ce8c5c7246",
                 "shasum": ""
             },
             "require": {
@@ -5411,7 +5411,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v4.11.0"
+                "source": "https://github.com/statamic/cms/tree/v4.12.0"
             },
             "funding": [
                 {
@@ -5419,7 +5419,55 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-07-13T21:16:38+00:00"
+            "time": "2023-07-20T22:01:12+00:00"
+        },
+        {
+            "name": "statamic/ssg",
+            "version": "2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/statamic/ssg.git",
+                "reference": "740d414cc54fbc35fbfdada59f3f6ffc2bfe3dc3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/statamic/ssg/zipball/740d414cc54fbc35fbfdada59f3f6ffc2bfe3dc3",
+                "reference": "740d414cc54fbc35fbfdada59f3f6ffc2bfe3dc3",
+                "shasum": ""
+            },
+            "require": {
+                "statamic/cms": "^4.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^7.0 || ^8.0"
+            },
+            "suggest": {
+                "spatie/fork": "Required to generate pages concurrently (^0.0.4)."
+            },
+            "type": "statamic-addon",
+            "extra": {
+                "statamic": {
+                    "name": "Static Site Generator",
+                    "description": "Static Site Generator addon"
+                },
+                "laravel": {
+                    "providers": [
+                        "Statamic\\StaticSite\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Statamic\\StaticSite\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Static site generator for Statamic 3.",
+            "support": {
+                "issues": "https://github.com/statamic/ssg/issues",
+                "source": "https://github.com/statamic/ssg/tree/2.1.0"
+            },
+            "time": "2023-07-14T13:55:46+00:00"
         },
         {
             "name": "statamic/stringy",

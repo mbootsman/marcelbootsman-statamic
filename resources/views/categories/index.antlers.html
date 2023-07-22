@@ -6,46 +6,27 @@
 <!-- /blog/index.antlers.html -->
 <main class="prose fluid-container" id="content">
     <h1>{{ title }}</h1>
-    {{ page_builder scope="block" }}
-    {{ partial src="page_builder/{type}" }}
-    {{ /page_builder }}
+    <ul class="list-none">
+        {{ terms sort="title:asc"}}
 
-    {{ collection:blog }}
-    {{ if no_results }}
-    <h2 class="text-2xl">No articles found!</h2>
-    {{ /if }}
-    {{ /collection:blog }}
+            {{ blogs_count = 0 }}
 
-    {{ collection:blog as="entries" sort="date:desc" }}
-    {{ entries group_by="date| Y" }}
-    {{ groups | scope('year_loop') }} {{# Years #}}
-    <div class="border-solid border-brightgreen border-b my-4">
+            {{ collection:blog taxonomy:categories="{{ slug }}" as "blogs" }}
+            {{ blogs_count = entries | count }}
+            {{ /collection:blog}}
 
-        <h2 class="m-0 py-2">{{ group }}<span class="ml-1 inline-block align-top text-xs text-gray-500" title="Number of blogs for{{ group }}: {{ items | count /}}">({{ items | count /}})</span></h2>
+            {{ if blogs_count > 0 }}
+                {{ if blogs_count > 1 }}
+                    {{ link_title = "Category {{ title }} has {{ blogs_count }} articles" }}
+                {{ else }}
+                    {{ link_title = "Category {{ title }} has {{ blogs_count }} article" }}
+                {{ /if }}
+                <li class="inline-block work rounded-md">
+                    <a class="no-underline" title="{{ link_title }}" href="{{ url }}">{{ title }}<sup class="mx-1 ">({{ blogs_count }})</sup></a>
+                </li>
+            {{ /if }}
 
-        {{ items group_by="date| F" }}
-        <div class="flex flex-wrap w-full">
-
-            {{ groups }}{{# Months #}}
-
-            <h3 class="m-0 py-2 w-full md:w-1/4">{{ group }}<span class="ml-1 inline-block align-top text-xs text-gray-500" title="Number of blogs for{{ group }}, {{ year_loop.group }}: {{ items | count /}}">({{ items | count /}})</span></h3>
-            <div class="w-full md:w-3/4 flex flex-colrow justify-items-end ">
-                <div class="pt-2 pb-4">
-                    {{ items }}
-                    <div class="p-0 m-0"><a href="{{ url }}">{{ title }}</a></div>
-                    <span class="text-xs text-gray-500 ">{{ date }}</span>
-                    {{ /items }}
-                </div>
-            </div>
-            {{ /groups }}{{# End Months #}}
-        </div>
-
-        {{ /items }}
-
-    </div>
-    {{ /groups }}{{# End Years #}}
-    {{ /entries }}
-
-    {{ /collection:blog }}
+        {{ /terms }}
+    </ul>
 </main>
 <!-- End: /blog/index.antlers.html -->

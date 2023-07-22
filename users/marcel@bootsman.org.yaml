@@ -22,6 +22,7 @@ preferences:
         - date
         - status
         - categories
+        - seo_description
   assets:
     images:
       mode: grid
