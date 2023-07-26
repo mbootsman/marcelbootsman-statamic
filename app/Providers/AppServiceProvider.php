@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\UrlPaginator;
 use Illuminate\Support\ServiceProvider;
 use Studio1902\PeakSeo\Handlers\ErrorPage;
 use Statamic\Extensions\Pagination\LengthAwarePaginator;
