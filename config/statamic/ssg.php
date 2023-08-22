@@ -42,7 +42,7 @@ return [
         public_path('build/assets') => 'build/assets',
         public_path('visuals') => 'visuals',
         public_path('favicons') => 'favicons',
-        public_path('images') => 'img',
+        public_path('images') => 'images',
     ],
 
     'symlinks' => [
