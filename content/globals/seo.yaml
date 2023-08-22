@@ -2,8 +2,8 @@ title: SEO
 data:
   title_separator: '-'
   site_name: marcelbootsman.nl
-  noindex_local: true
-  noindex_staging: true
+  noindex_local: false
+  noindex_staging: false
   noindex_production: false
   hreflang_auto: true
   json_ld_type: none
@@ -14,6 +14,13 @@ data:
     - blog
   sitemap_collections:
     - pages
+    - notes
+    - blog
+  sitemap_taxonomies:
+    - categories
+  sitemap_collection_taxonomies:
+    -
+      id: llmclpyp
   trackers_local: false
   trackers_staging: false
   trackers_production: true
