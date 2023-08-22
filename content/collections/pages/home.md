@@ -1,9 +1,9 @@
 ---
 id: home
 blueprint: page
-title: Home
+title: 'Marcel Bootsman'
 updated_by: 9ee9b5d3-6247-4f7a-80d0-f5574e1a355a
-updated_at: 1690031409
+updated_at: 1692710909
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -1176,4 +1176,5 @@ page_builder:
     type: connect
     enabled: true
 template: home
+seo_title: 'Marcel Bootsman'
 ---
