@@ -39,7 +39,7 @@ return [
     */
 
     'copy' => [
-        public_path('build/assets') => 'assets',
+        public_path('build/assets') => 'build/assets',
         public_path('visuals') => 'visuals',
         public_path('favicons') => 'favicons',
         public_path('images') => 'img',
