@@ -32,7 +32,7 @@ class AppServiceProvider extends ServiceProvider
         // Statamic::script('app', 'cp');
         // Statamic::style('app', 'cp');
 
-        ErrorPage::handle404AsEntry();
+        // ErrorPage::handle404AsEntry();
 
         SSG::after(function () {
             $from = public_path('img');
