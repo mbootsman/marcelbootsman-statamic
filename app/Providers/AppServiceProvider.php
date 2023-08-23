@@ -32,6 +32,7 @@ class AppServiceProvider extends ServiceProvider
         // Statamic::script('app', 'cp');
         // Statamic::style('app', 'cp');
 
+        // Doesn't work with Peak at the moment
         // ErrorPage::handle404AsEntry();
 
         SSG::after(function () {
