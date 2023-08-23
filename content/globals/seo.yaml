@@ -5,7 +5,7 @@ data:
   noindex_local: false
   noindex_staging: false
   noindex_production: false
-  hreflang_auto: true
+  hreflang_auto: false
   json_ld_type: none
   breadcrumbs: false
   use_social_image_generation: true
