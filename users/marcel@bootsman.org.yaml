@@ -23,6 +23,7 @@ preferences:
         - status
         - categories
         - seo_description
+      after_save: continue_editing
   assets:
     images:
       mode: grid
