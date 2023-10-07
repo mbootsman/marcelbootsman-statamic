@@ -24,3 +24,8 @@ data:
       prefix: 'mailto:'
       type: email
       enabled: true
+    -
+      id: lnfv9wjx
+      handle: /feed
+      type: rss
+      enabled: true

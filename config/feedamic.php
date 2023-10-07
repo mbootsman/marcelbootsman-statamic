@@ -22,12 +22,12 @@ return [
             /*
             | The title for the feed
             */
-            'title' => '',
+            'title' => 'marcelbootsman.nl',
 
             /*
             | The description (RSS) or subtitle (Atom) for the feed
             */
-            'description' => '',
+            'description' => 'Latest posts',
 
             /*
             | Define the Atom and RSS routes for the feed.
