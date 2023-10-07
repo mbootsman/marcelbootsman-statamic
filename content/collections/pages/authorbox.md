@@ -99,7 +99,7 @@ page_builder:
               -
                 type: link
                 attrs:
-                  href: /
+                  href: '/#connect'
                   rel: null
                   target: null
                   title: null
@@ -115,5 +115,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 9ee9b5d3-6247-4f7a-80d0-f5574e1a355a
-updated_at: 1687630158
+updated_at: 1696668022
 ---
