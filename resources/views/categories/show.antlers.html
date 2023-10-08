@@ -2,10 +2,10 @@
     <h1 class="block">Category {{ title }}</h1>
         
     
-    {{ entries paginate="6" }}
+    {{ entries paginate="6" sort="date:desc"}}
     <ul>
         {{ results }}
-        <li><a href="{{ url }}">{{ title }}</a></li>
+        <li><a href="{{ url }}">{{ title }}</a><span class="date text-sm m-2 px-2 py-0.5 rounded">{{ date }}</span></li>
         {{ /results }}
     </ul>
     {{ /entries }}

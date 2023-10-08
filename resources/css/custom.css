@@ -30,7 +30,8 @@
         content: "";
     }
 
-    body .work {
+    body .work,
+    span.date {
         background-color: #d9d7d7;
     }
 
@@ -66,7 +67,8 @@
     body.dark .work,
     body.dark code,
     body.dark pre,
-    body.dark nav div {
+    body.dark nav div,
+    body.dark .date {
         background-color: #37383e;
         border: none;
     }
