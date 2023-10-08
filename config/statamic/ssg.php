@@ -53,6 +53,7 @@ return [
     'urls' => [
         '/feed',
         '/feed/atom',
+        '/categories'
     ],
 
     /*
