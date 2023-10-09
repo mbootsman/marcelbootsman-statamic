@@ -12,6 +12,7 @@ data:
   social_images_collections:
     - pages
     - blog
+    - notes
   sitemap_collections:
     - pages
     - notes
