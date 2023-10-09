@@ -5,7 +5,9 @@
     {{ entries paginate="6" sort="date:desc"}}
     <ul>
         {{ results }}
-        <li><a href="{{ url }}">{{ title }}</a><span class="date text-sm m-2 px-2 py-0.5 rounded">{{ date }}</span></li>
+        <li><a href="{{ url }}">{{ title }}</a><span class="bg-grey text-sm ml-2 px-2 py-0.5 rounded">{{ date }}</span>
+        {{ if collection =="notes" }} <span class="text-sm px-2 py-0.5 rounded bg-brightgreen collection note">Note</span> {{ /if }}
+        {{ if collection =="blog" }} <span class="text-sm px-2 py-0.5 rounded bg-brightgreen collection blog">Blog</span> {{ /if }}</li>
         {{ /results }}
     </ul>
     {{ /entries }}

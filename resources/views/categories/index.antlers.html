@@ -22,7 +22,7 @@
                 {{ else }}
                     {{ link_title = "Category {{ title }} has {{ blogs_count }} article" }}
                 {{ /if }}
-                <li class="inline-block work rounded-md">
+                <li class="inline-block bg-grey rounded-md">
                     <a class="no-underline" title="{{ link_title }}" href="{{ url }}">{{ title }}<sup class="mx-1 ">({{ blogs_count }})</sup></a>
                 </li>
             {{ /if }}

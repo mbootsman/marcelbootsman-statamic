@@ -30,8 +30,7 @@
         content: "";
     }
 
-    body .work,
-    span.date {
+    body .bg-grey {
         background-color: #d9d7d7;
     }
 
@@ -64,16 +63,16 @@
 
     body.dark .authorbox,
     body.dark .category,
-    body.dark .work,
+    body.dark .bg-grey,
     body.dark code,
     body.dark pre,
-    body.dark nav div,
-    body.dark .date {
+    body.dark nav div {
         background-color: #37383e;
         border: none;
     }
 
-    body.dark .notice {
+    body.dark .notice,
+    body.dark .bg-brightgreen {
         background-color: #005039;
     }
 
