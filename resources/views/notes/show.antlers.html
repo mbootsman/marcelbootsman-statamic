@@ -2,7 +2,7 @@
     <h1 class="block">{{ title }}</h1>
     <span class="block text-sm text-stone-400 my-4">{{ date }}</span>
     {{ categories }}
-    <a href="/category/{{ slug }}" class="text-xs p-2 my-4 mr-2 rounded-md bg-stone-200 hover:bg-brightgreen">{{ title }} </a>
+    <a href="/categories/{{ slug }}" class="text-xs p-2 my-4 mr-2 rounded-md bg-stone-200 hover:bg-brightgreen">{{ title }} </a>
     {{ /categories }}
     {{ if featured_image }}
     {{ glide :src="featured_image" width="860" height="450"}}
