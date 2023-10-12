@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Home
 updated_by: 9ee9b5d3-6247-4f7a-80d0-f5574e1a355a
-updated_at: 1692712116
+updated_at: 1697057442
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -878,6 +878,23 @@ page_builder:
                           target: null
                           title: null
                     text: 'WordCamp The Netherlands 2022'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'http://netherlands.wordcamp.org/2023/'
+                          rel: null
+                          target: null
+                          title: null
+                    text: 'WordCamp The Netherlands 2023'
       -
         type: heading
         attrs:
