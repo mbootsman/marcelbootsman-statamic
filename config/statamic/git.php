@@ -74,8 +74,8 @@ return [
     'use_authenticated' => true,
 
     'user' => [
-        'name' => env('STATAMIC_GIT_USER_NAME', 'Spock'),
-        'email' => env('STATAMIC_GIT_USER_EMAIL', 'spock@example.com'),
+        'name' => env('STATAMIC_GIT_USER_NAME', 'Marcel Bootsman'),
+        'email' => env('STATAMIC_GIT_USER_EMAIL', 'marcel@nostromo.nl'),
     ],
 
     /*
@@ -94,11 +94,13 @@ return [
         base_path('content'),
         base_path('users'),
         resource_path('blueprints'),
+        resource_path('css'),
         resource_path('fieldsets'),
         resource_path('forms'),
+        resource_path('js'),
+        resource_path('svg'),
         resource_path('users'),
-        resource_path('preferences.yaml'),
-        storage_path('forms'),
+        resource_path('views'),
         public_path('images'),
         public_path('favicons'),
         public_path('files'),
