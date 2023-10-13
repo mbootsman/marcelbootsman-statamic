@@ -52,7 +52,11 @@
     body.dark img {
         filter: grayscale(100%) brightness(90%);
     }
-
+    
+    body.dark img.logo {
+        filter: invert(1);
+    }
+    
     body.dark .prose *,
     body.dark .text-primary,
     body.dark .text-neutral,
