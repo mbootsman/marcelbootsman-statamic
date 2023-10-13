@@ -20,6 +20,40 @@ page_builder:
           -
             type: text
             text: 'The page you requested is not available (anymore).'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'You could try to look in the '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /archive
+                  rel: null
+                  target: null
+                  title: null
+            text: Blog
+          -
+            type: text
+            text: ' or '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /notes
+                  rel: null
+                  target: null
+                  title: null
+            text: Notes
+          -
+            type: text
+            text: ' archive to find what you are looking for.'
     type: article
     enabled: true
 seo_noindex: true
@@ -28,6 +62,6 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 9ee9b5d3-6247-4f7a-80d0-f5574e1a355a
-updated_at: 1696670654
+updated_at: 1697185445
 seo_title: '404 - Page not found'
 ---
