@@ -29,12 +29,12 @@
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:zoom="0.77771465"
-     inkscape:cx="-185.80079"
+     inkscape:cx="-185.15789"
      inkscape:cy="201.23062"
      inkscape:window-width="1551"
      inkscape:window-height="1082"
      inkscape:window-x="1226"
-     inkscape:window-y="544"
+     inkscape:window-y="542"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer1"
      width="209mm"
@@ -80,18 +80,19 @@
        inkscape:export-filename="/media/marcel/documenten/Marcel/marcelbootsman.nl/mb-logo.png"
        inkscape:export-xdpi="202.07001"
        inkscape:export-ydpi="202.07001" />
-    <text
-       xml:space="preserve"
-       transform="matrix(0.87289768,0,0,0.87289768,-45.341354,14.556032)"
+    <g
+       aria-label="MB"
+       transform="matrix(1.1955093,0,0,1.1955093,-98.223758,-30.309641)"
        id="text3865"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:in;-inkscape-font-specification:in;white-space:pre;shape-inside:url(#rect3867);fill:#ffffff;fill-opacity:1;stroke:none"
-       inkscape:export-filename="/media/marcel/documenten/Marcel/marcelbootsman.nl/mb-logo.png"
-       inkscape:export-xdpi="202.07001"
-       inkscape:export-ydpi="202.07001"><tspan
-         x="138.73438"
-         y="152.88672"
-         id="tspan104"><tspan
-           style="font-family:Inder;-inkscape-font-specification:Inder"
-           id="tspan102">MB</tspan></tspan></text>
+       style="font-size:40px;line-height:1.25;font-family:in;-inkscape-font-specification:in;white-space:pre;shape-inside:url(#rect3867);fill:#ffffff">
+      <path
+         d="m 141.56641,125.69922 h 2.5 l 9.6875,11.13281 9.64843,-11.13281 h 2.5 v 27.1875 h -3.90625 v -20.70313 l -1.15234,1.5625 -7.08984,8.26172 -7.08985,-8.24219 -1.1914,-1.5625 v 20.6836 h -3.90625 z"
+         style="font-family:Inder;-inkscape-font-specification:Inder"
+         id="path8176" />
+      <path
+         d="m 172.05469,125.69922 h 6.85547 q 6.73828,0 8.6914,3.88672 0.72266,1.46484 0.72266,2.91015 0,1.44532 -0.3125,2.30469 -0.29297,0.83984 -0.80078,1.54297 -0.95703,1.32812 -2.53907,2.26562 v 0.0781 q 2.92969,0.83984 4.31641,2.94922 1.05469,1.60156 1.05469,3.55469 0,1.95312 -0.78125,3.3789 -0.76172,1.42578 -2.12891,2.38281 -2.79297,1.9336 -7.46094,1.9336 h -7.61718 z m 7.59765,11.85547 q 3.14453,0 4.23828,-2.48047 0.3711,-0.87891 0.3711,-1.95313 0,-1.09375 -0.27344,-1.875 -0.27344,-0.80078 -0.87891,-1.36718 -1.28906,-1.21094 -3.88671,-1.21094 h -3.26172 v 8.88672 z m 6.32813,7.71484 q 0,-4.74609 -5.70313,-4.74609 h -4.3164 v 9.39453 h 3.71093 q 4.29688,0 5.80079,-2.59766 0.50781,-0.8789 0.50781,-2.05078 z"
+         style="font-family:Inder;-inkscape-font-specification:Inder"
+         id="path8178" />
+    </g>
   </g>
 </svg>
