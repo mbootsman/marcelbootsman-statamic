@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Home
 updated_by: 9ee9b5d3-6247-4f7a-80d0-f5574e1a355a
-updated_at: 1697057442
+updated_at: 1697906150
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -21,17 +21,23 @@ page_builder:
       -
         type: heading
         attrs:
-          level: 2
+          level: 1
         content:
           -
             type: text
-            text: 'About me'
+            text: 'About Marcel Bootsman'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Hi! My name is Marcel Bootsman. This is my personal site on which I share some of my thoughts and experiences about my work, private life and everything in between. Also you might find some technical content here about Open Source, Web development, WordPress and Static Site Generators ('
+            text: 'Hi! My name is Marcel Bootsman. '
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'This is my personal site on which I share some of my thoughts and experiences about my work, private life and everything in between. You might find some technical content here about Open Source, Web development, WordPress and Static Site Generators ('
           -
             type: text
             marks:
@@ -54,26 +60,6 @@ page_builder:
           -
             type: text
             text: 'Professional biography'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'My current role, since April 2019, is Marketing Manager Dutch Market for '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://marcelbootsman.nl/kinsta'
-                  rel: null
-                  target: null
-                  title: null
-            text: Kinsta
-          -
-            type: text
-            text: .
       -
         type: paragraph
         content:
@@ -133,7 +119,21 @@ page_builder:
             text: 'walk from my hometown to Berlin for WordCamp Europe 2019'
           -
             type: text
-            text: '. Soon after that event, I made the decision to stop my work at nostromo.nl, and work for Kinsta.'
+            text: '. Soon after that event, I made the decision to stop my work at nostromo.nl, and work as Marketing Manager Dutch Market for '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /kinsta
+                  rel: null
+                  target: null
+                  title: null
+            text: Kinsta
+          -
+            type: text
+            text: ' since April 2019.'
     type: article
     enabled: true
   -
