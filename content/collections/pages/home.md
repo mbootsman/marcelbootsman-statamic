@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Home
 updated_by: 9ee9b5d3-6247-4f7a-80d0-f5574e1a355a
-updated_at: 1697906150
+updated_at: 1698093590
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -31,7 +31,7 @@ page_builder:
         content:
           -
             type: text
-            text: 'Hi! My name is Marcel Bootsman. '
+            text: 'Hi! 👋'
       -
         type: paragraph
         content:
@@ -133,7 +133,7 @@ page_builder:
             text: Kinsta
           -
             type: text
-            text: ' since April 2019.'
+            text: ' since April 2019. 🚀'
     type: article
     enabled: true
   -
@@ -1067,7 +1067,7 @@ page_builder:
         content:
           -
             type: text
-            text: 'Here are some of my online profiles. Please feel free to reach out to me for a talk about WordPress, hosting, or any other topic.'
+            text: '☎ Here are some of my online profiles. Please feel free to reach out to me for a talk about WordPress, web development, hosting, or any other topic.'
       -
         type: bulletList
         content:
