@@ -12,7 +12,8 @@
                 {{ unless (now | format('Y')) == configuration:copyright_since }}
                     - {{ now | format('Y') }}
                     {{ /unless }}
-                {{ configuration:copyright_name ?? config:app:name }} - Powered by <a href="https://statamic.com/">Statamic</a>
+                {{ configuration:copyright_name ?? config:app:name }} - Powered by <a class="underline" href="https://statamic.com/">Statamic</a>
+                - Hosted on <a class="underline" href="/kinsta-static-site-hosting">Kinsta Static Site Hosting</a>
             </span>
 
             {{# Lets users reset their cookie consent when you use the cookie banner. #}}
