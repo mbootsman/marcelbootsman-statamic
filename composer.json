@@ -84,11 +84,17 @@
         "post-update-cmd": [
             "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
         ],
+        "build-dev": [
+            "npm run production",
+            "@php -r \"copy('.env.development', '.env');\"",
+            "@php artisan key:generate",
+            "@php please ssg:generate --workers=4"
+        ],
         "build": [
             "npm run production",
-            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
+            "@php -r \"copy('.env.production', '.env');\"",
             "@php artisan key:generate",
-            "@php please ssg:generate"
+            "@php please ssg:generate --workers=4"
         ]
     }
 }
