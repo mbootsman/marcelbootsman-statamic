@@ -20,8 +20,8 @@
 <div class="gallery my-4 flex flex-wrap" itemscope itemtype="http://schema.org/ImageGallery">
     {{ images }}
     <figure class="basis-full sm:basis-1/2 md:basis-1/4 p-1">
-        <a class="swipebox" href='{{ glide:id width="960" fit="crop" quality="90" }}' itemprop="contentUrl" data-size='960x{{ height }}'>
-            <img class="m-0 rounded-sm" src='{{ glide:id width="600" height="400" fit="crop" quality="90" }}' alt="{{ alt }}" loading="lazy" />
+        <a class="swipebox" href='{{ glide:id width="960" fit="crop" quality="90" format="webp" }}' itemprop="contentUrl" data-size='960x{{ height }}'>
+            <img class="m-0 rounded-sm" src='{{ glide:id width="600" height="400" fit="crop" quality="90" format="webp" }}' alt="{{ alt }}" loading="lazy" />
         </a>
     </figure>
     {{ /images }}

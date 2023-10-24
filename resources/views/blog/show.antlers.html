@@ -5,8 +5,8 @@
     <a href="/categories/{{ slug }}" class="category text-xs p-2 my-4 mr-2 rounded-md bg-stone-200 hover:bg-brightgreen">{{ title }}</a>
     {{ /categories }}
     {{ if featured_image }}
-    {{ glide :src="featured_image" width="900" height="400"}}
-    <img class="mb-2 rounded-md" src="{{ url }}" width="{{ width }}" height="{{ height }}"" alt="{{ alt }}">
+    {{ glide :src="featured_image" width="900" height="400" format="webp"}}
+    <img class="mb-2 rounded-md" src="{{ url }}" width="{{ width }}" height="{{ height }}" alt="{{ alt }}">
     {{ /glide }}
     {{ /if }}
 

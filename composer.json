@@ -97,7 +97,8 @@
             "@php please ssg:generate --workers=4"
         ],
         "deploy": [
-            "git -C ~/Sites/marcelbootsman/static/ commit -m \"Version `date +'%Y-%m-%d'`\"",
+            "git -C ~/Sites/marcelbootsman/static/ add --all",
+            "git -C ~/Sites/marcelbootsman/static/ commit -m \"Version `date +'%Y-%m-%d %H:%M:%S'`\"",
             "git -C ~/Sites/marcelbootsman/static/ push origin main"
         ]
     }
