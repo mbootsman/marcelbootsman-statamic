@@ -95,6 +95,10 @@
             "@php -r \"copy('.env.production', '.env');\"",
             "@php artisan key:generate",
             "@php please ssg:generate --workers=4"
+        ],
+        "deploy": [
+            "git -C ~/Sites/marcelbootsman/static/ commit -m \"Version `date +'%Y-%m-%d'`\"",
+            "git -C ~/Sites/marcelbootsman/static/ push origin main"
         ]
     }
 }
