@@ -1,12 +1,60 @@
+{{ push:mastodon_share }}
+<script>
+    /* Generate a share link for the user's Mastodon domain */
+    function MastodonShare(e) {
+        // Get the source text
+        src = e.getAttribute("data-src");
+
+        // Get the Mastodon domain
+        domain = prompt("Enter your Mastodon domain", "toot.re");
+
+        if (domain == "" || domain == null) {
+            return;
+        }
+
+        // Build the URL
+        url = "https://" + domain + "/share?text=" + src;
+
+        // Open a window on the share page
+        window.open(url, '_blank');
+    }
+
+    function doSomethingWhenDocumentReady(functionToExecute) {
+        /* $(document).ready() without javascript
+        */
+        if (document.readyState === "complete" ||
+            (document.readyState !== "loading" && !document.documentElement.doScroll)
+        ) {
+            functionToExecute();
+        } else {
+            document.addEventListener("DOMContentLoaded", functionToExecute);
+        }
+    }
+
+    /* Call this on document.ready() */
+    function unhideMastodonShare() {
+        var button = document.getElementById('mastodonshare');
+        button.classList.remove('hidden');
+    }
+    doSomethingWhenDocumentReady(unhideMastodonShare);
+
+</script>
+{{ /push:mastodon_share }}
 <main class="prose fluid-container" id="content">
     <h1 class="block">{{ title }}</h1>
-    <span class="block text-sm my-4">{{ date }} </span>
+    <span class="block text-sm my-4">{{ date }}</span>
     {{ categories }}
     <a href="/categories/{{ slug }}" class="category text-xs p-2 my-4 mr-2 rounded-md bg-stone-200 hover:bg-brightgreen">{{ title }}</a>
     {{ /categories }}
+    <span id="mastodonshare" class="hidden category inline-flex items-baseline float-right rounded-md bg-stone-200 hover:bg-brightgreen px-1">
+        <a class="underline" title="Share '{{ title }}' on Mastodon" href="#" onclick="MastodonShare(this);" data-src="I found this blog and decided to share it with you.%0D%0A%0D%0A{{ title }}&amp;url={{ permalink }}">
+            <img class="inline align-middle h-4 m-0 mr-1" alt="Mastodon logo" title="Share on Mastodon" src="/visuals/mastodon-logo.svg" /><span class="text-xs">Share on Mastodon</span>
+        </a>
+    </span>
+
     {{ if featured_image }}
     {{ glide :src="featured_image" width="900" height="400" format="webp"}}
-    <img class="mb-2 rounded-md" src="{{ url }}" width="{{ width }}" height="{{ height }}" alt="{{ alt }}">
+    <img class="mt-2 mb-2 rounded-md" src="{{ url }}" width="{{ width }}" height="{{ height }}" alt="{{ alt }}">
     {{ /glide }}
     {{ /if }}
 
