@@ -1,4 +1,4 @@
-{{partial:layout/mastodon-share-js }}
+{{ partial:layout/mastodon-share-js }}
 
 <main class="prose fluid-container" id="content">
     <h1 class="block">{{ title }}</h1>
@@ -7,7 +7,7 @@
     <a href="/categories/{{ slug }}" class="category text-xs p-2 my-4 mr-2 rounded-md bg-stone-200 hover:bg-brightgreen">{{ title }}</a>
     {{ /categories }}
 
-    {{partial:layout/mastodon-share-button }}
+    {{ partial:layout/mastodon-share-button }}
 
     {{ if featured_image }}
     {{ glide :src="featured_image" width="900" height="400" format="webp"}}
