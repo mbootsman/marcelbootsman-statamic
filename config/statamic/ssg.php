@@ -43,6 +43,7 @@ return [
         public_path('visuals') => 'visuals',
         public_path('favicons') => 'favicons',
         public_path('images') => 'images',
+        public_path('files') => 'files',
     ],
 
     'symlinks' => [

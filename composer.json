@@ -94,7 +94,7 @@
             "npm run production",
             "@php -r \"copy('.env.production', '.env');\"",
             "@php artisan key:generate",
-            "@php please ssg:generate --workers=4",
+            "@php please ssg:generate --workers=8",
             "@php -r \"copy('.env.development', '.env');\""
         ],
         "deploy": [
