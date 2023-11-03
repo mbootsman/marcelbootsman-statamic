@@ -4,11 +4,11 @@
 #}}
 
 <!-- /components/_logo.antlers.html -->
-<div class="basis-96">
+<div class="basis-54 sm:basis-96">
     <a class="p-2 -m-2 focus:outline-none focus-visible:ring-2 ring-primary"
         aria-label="Logo {{ config:app:name }}" href="{{ site:url }}">
-        <img src="{{ config:app:url }}/visuals/marcelbootsman-logo.png" class="logo inline select-none {{ class }}" width="80" alt="{{ config:app:name }}" />
-        <span class="border-b-4 border-brightgreen text-2xl font-bold">Marcel Bootsman</span>
+        <img src="{{ config:app:url }}/visuals/marcelbootsman-logo.png" class="logo inline select-none {{ class }} w-10 sm:w-20" alt="{{ config:app:name }}" />
+        <span class="border-b-4 border-brightgreen text-l sm:text-2xl font-bold">Marcel Bootsman</span>
     </a>
     <div class="inline-block relative top-2">
         <button id="theme-toggle" title="Toggle dark/light theme">
