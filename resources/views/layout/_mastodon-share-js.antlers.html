@@ -35,6 +35,7 @@
     function unhideMastodonShare() {
         var button = document.getElementById('mastodonshare');
         button.classList.remove('hidden');
+        button.classList.add('inline-flex');
     }
     doSomethingWhenDocumentReady(unhideMastodonShare);
 
