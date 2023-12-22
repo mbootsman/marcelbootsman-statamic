@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Picture of Stream Deck device'
 size: 97315
 last_modified: 1701095029
 width: 860
