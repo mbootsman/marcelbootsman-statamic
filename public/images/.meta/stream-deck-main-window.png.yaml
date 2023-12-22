@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Streamdeck main window with some icons to operate the Stream Deck device.'
 size: 72347
 last_modified: 1701097102
 width: 1039

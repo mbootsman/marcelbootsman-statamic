@@ -58,7 +58,7 @@ page_builder:
             text: Kinsta
           -
             type: text
-            text: " where he helps Kinsta's client base grow in the "
+            text: " where he helps Kinsta's client base grow with "
           -
             type: text
             marks:
@@ -72,7 +72,7 @@ page_builder:
             text: 'Managed WordPress'
           -
             type: text
-            text: ' and '
+            text: ', '
           -
             type: text
             marks:
@@ -83,10 +83,24 @@ page_builder:
                   rel: null
                   target: null
                   title: null
-            text: 'Application & Database hosting'
+            text: 'Application, Database'
           -
             type: text
-            text: ' arena.'
+            text: ' and '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://kinsta.com/static-site-hosting/'
+                  rel: null
+                  target: null
+                  title: null
+            text: 'Static site hosting'
+          -
+            type: text
+            text: .
       -
         type: paragraph
         content:
@@ -115,5 +129,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 9ee9b5d3-6247-4f7a-80d0-f5574e1a355a
-updated_at: 1696668022
+updated_at: 1703248262
 ---
