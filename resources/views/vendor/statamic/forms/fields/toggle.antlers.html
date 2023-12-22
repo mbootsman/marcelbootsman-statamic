@@ -10,8 +10,7 @@
         type="checkbox"
         name="{{ handle }}"
         value="1"
-        {{ js_attributes }}
-        {{ (!old && default) ?= 'checked' }}
+                {{ (!old && default) ?= 'checked' }}
     >
     {{ if inline_label }}
         <span>

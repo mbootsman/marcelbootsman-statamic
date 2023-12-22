@@ -17,12 +17,12 @@
         "mitydigital/feedamic": "^2.2",
         "spatie/browsershot": "^3.57",
         "spatie/fork": "^1.2",
-        "statamic/cms": "4.36.0",
+        "statamic/cms": "4.42.0",
         "statamic/ssg": "^2.1",
-        "studio1902/statamic-peak-browser-appearance": "3.3.1",
-        "studio1902/statamic-peak-commands": "^2.7.0",
-        "studio1902/statamic-peak-seo": "7.3.0",
-        "studio1902/statamic-peak-tools": "^3.4.3",
+        "studio1902/statamic-peak-browser-appearance": "3.3.4",
+        "studio1902/statamic-peak-commands": "3.2.0",
+        "studio1902/statamic-peak-seo": "7.5.0",
+        "studio1902/statamic-peak-tools": "4.2.0",
         "torchlight/torchlight-commonmark": "^0.5.5",
         "torchlight/torchlight-laravel": "^0.5.13"
     },
@@ -96,11 +96,6 @@
             "@php artisan key:generate",
             "@php please ssg:generate --workers=8",
             "@php -r \"copy('.env.development', '.env');\""
-        ],
-        "deploy": [
-            "git -C ~/Sites/marcelbootsman/static/ add --all",
-            "git -C ~/Sites/marcelbootsman/static/ commit -m \"Version `date +'%Y-%m-%d %H:%M:%S'`\"",
-            "git -C ~/Sites/marcelbootsman/static/ push origin main"
         ]
     }
 }
