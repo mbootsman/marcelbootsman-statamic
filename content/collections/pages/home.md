@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Home
 updated_by: 9ee9b5d3-6247-4f7a-80d0-f5574e1a355a
-updated_at: 1698093590
+updated_at: 1707042852
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -604,7 +604,50 @@ page_builder:
         content:
           -
             type: text
-            text: 'What do I do now?'
+            text: 'My professional path'
+      -
+        type: bulletList
+        content:
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Business Development Manager Dutch and DACH Markets at '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /kinsta
+                          rel: null
+                          target: null
+                          title: null
+                    text: 'Kinsta – The best home for modern WordPress sites'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Marketing Manager Dutch Market at '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /kinsta
+                          rel: null
+                          target: null
+                          title: null
+                    text: 'Kinsta – The best home for modern WordPress sites'
       -
         type: bulletList
         content:
@@ -636,18 +679,43 @@ page_builder:
                 content:
                   -
                     type: text
-                    text: 'Marketing Manager Dutch Market at '
+                    text: 'Presales Consultant Mainframe at i3-groep'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://kinsta.com/nl/'
-                          rel: null
-                          target: null
-                          title: null
-                    text: 'Kinsta – Managed Application, Database and WordPress Hosting'
+                    text: 'Software Architect at Sogeti'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Technical Sales Specialist System z at IBM'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'WebSphere Support Specialist at IBM'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Java Application Developer at IBM'
       -
         type: heading
         attrs:
