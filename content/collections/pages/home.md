@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Home
 updated_by: 9ee9b5d3-6247-4f7a-80d0-f5574e1a355a
-updated_at: 1707042852
+updated_at: 1707489005
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -777,11 +777,11 @@ page_builder:
                       -
                         type: link
                         attrs:
-                          href: 'https://2016.netherlands.wordcamp.org/'
+                          href: 'https://2020.netherlands.wordcamp.org/'
                           rel: null
                           target: null
                           title: null
-                    text: 'WordCamp The Netherlands 2016'
+                    text: 'WordCamp The Netherlands 2020'
           -
             type: listItem
             content:
@@ -794,11 +794,11 @@ page_builder:
                       -
                         type: link
                         attrs:
-                          href: 'https://2020.netherlands.wordcamp.org/'
+                          href: 'https://2019.rotterdam.wordcamp.org/'
                           rel: null
                           target: null
                           title: null
-                    text: 'WordCamp The Netherlands 2020'
+                    text: 'WordCamp Rotterdam 2019'
           -
             type: listItem
             content:
@@ -828,11 +828,11 @@ page_builder:
                       -
                         type: link
                         attrs:
-                          href: 'https://2019.rotterdam.wordcamp.org/'
+                          href: 'https://2016.netherlands.wordcamp.org/'
                           rel: null
                           target: null
                           title: null
-                    text: 'WordCamp Rotterdam 2019'
+                    text: 'WordCamp The Netherlands 2016'
       -
         type: heading
         attrs:
@@ -856,11 +856,62 @@ page_builder:
                       -
                         type: link
                         attrs:
-                          href: 'http://2013.europe.wordcamp.org/'
+                          href: 'http://netherlands.wordcamp.org/2023/'
                           rel: null
                           target: null
                           title: null
-                    text: 'WordCamp Europe 2013'
+                    text: 'WordCamp The Netherlands 2023'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'http://netherlands.wordcamp.org/2022/'
+                          rel: null
+                          target: null
+                          title: null
+                    text: 'WordCamp The Netherlands 2022'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://wpnl.live/'
+                          rel: null
+                          target: null
+                          title: null
+                    text: 'WPNL Live!'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'http://2015.netherlands.wordcamp.org/'
+                          rel: null
+                          target: null
+                          title: null
+                    text: 'WordCamp The Netherlands 2015'
           -
             type: listItem
             content:
@@ -907,62 +958,11 @@ page_builder:
                       -
                         type: link
                         attrs:
-                          href: 'http://2015.netherlands.wordcamp.org/'
+                          href: 'http://2013.europe.wordcamp.org/'
                           rel: null
                           target: null
                           title: null
-                    text: 'WordCamp The Netherlands 2015'
-          -
-            type: listItem
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://wpnl.live/'
-                          rel: null
-                          target: null
-                          title: null
-                    text: 'WPNL Live!'
-          -
-            type: listItem
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'http://netherlands.wordcamp.org/2022/'
-                          rel: null
-                          target: null
-                          title: null
-                    text: 'WordCamp The Netherlands 2022'
-          -
-            type: listItem
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'http://netherlands.wordcamp.org/2023/'
-                          rel: null
-                          target: null
-                          title: null
-                    text: 'WordCamp The Netherlands 2023'
+                    text: 'WordCamp Europe 2013'
       -
         type: heading
         attrs:
@@ -974,6 +974,82 @@ page_builder:
       -
         type: bulletList
         content:
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'WordCamp Europe 2019'
+                  -
+                    type: hardBreak
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://europe.wordcamp.org/2019/session/why-i-walked-more-than-700km-to-berlin-and-survived/'
+                          rel: null
+                          target: null
+                          title: null
+                    text: 'Why I walked more than 700km to Berlin, and survived'
+                  -
+                    type: hardBreak
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://wordpress.tv/2019/10/11/marcel-bootsman-why-i-walked-more-than-700km-to-berlin-and-survived/'
+                          rel: null
+                          target: null
+                          title: null
+                    text: Video
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'WordCamp Osnabrück 2019'
+                  -
+                    type: hardBreak
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://osnabrueck.wordcamp.org/2019/speaker/marcel-bootsman/'
+                          rel: null
+                          target: null
+                          title: null
+                    text: 'Walk to WCEU'
+                  -
+                    type: hardBreak
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://wordpress.tv/2019/03/25/marcel-bootsman-walk-to-wceu/'
+                          rel: null
+                          target: null
+                          title: null
+                    text: Video
           -
             type: listItem
             content:
@@ -1046,82 +1122,6 @@ page_builder:
                         type: link
                         attrs:
                           href: 'https://wordpress.tv/2018/04/03/marcel-bootsman-meet-gutenberg-the-future-of-wordpress-publishing/'
-                          rel: null
-                          target: null
-                          title: null
-                    text: Video
-          -
-            type: listItem
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'WordCamp Osnabrück 2019'
-                  -
-                    type: hardBreak
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://osnabrueck.wordcamp.org/2019/speaker/marcel-bootsman/'
-                          rel: null
-                          target: null
-                          title: null
-                    text: 'Walk to WCEU'
-                  -
-                    type: hardBreak
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://wordpress.tv/2019/03/25/marcel-bootsman-walk-to-wceu/'
-                          rel: null
-                          target: null
-                          title: null
-                    text: Video
-          -
-            type: listItem
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'WordCamp Europe 2019'
-                  -
-                    type: hardBreak
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://europe.wordcamp.org/2019/session/why-i-walked-more-than-700km-to-berlin-and-survived/'
-                          rel: null
-                          target: null
-                          title: null
-                    text: 'Why I walked more than 700km to Berlin, and survived'
-                  -
-                    type: hardBreak
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://wordpress.tv/2019/10/11/marcel-bootsman-why-i-walked-more-than-700km-to-berlin-and-survived/'
                           rel: null
                           target: null
                           title: null
