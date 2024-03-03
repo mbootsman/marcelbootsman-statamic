@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e8315b9e8a8d1514eac2e71721030669",
+    "content-hash": "9ea48c94f05277b264cb2a23ef80e35b",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -5636,16 +5636,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v4.46.0",
+            "version": "v4.51.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "23215679fd9620b5b0c4740e81f3dc48b89ae3a6"
+                "reference": "d2dc38494d672fcff6e962f0a4742763d33dd49b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/23215679fd9620b5b0c4740e81f3dc48b89ae3a6",
-                "reference": "23215679fd9620b5b0c4740e81f3dc48b89ae3a6",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/d2dc38494d672fcff6e962f0a4742763d33dd49b",
+                "reference": "d2dc38494d672fcff6e962f0a4742763d33dd49b",
                 "shasum": ""
             },
             "require": {
@@ -5683,7 +5683,7 @@
                 "laravel/pint": "^1.0",
                 "mockery/mockery": "^1.3.3",
                 "orchestra/testbench": "^7.0 || ^8.0",
-                "phpunit/phpunit": "^9.0"
+                "phpunit/phpunit": "^9.0 || ^10.0"
             },
             "type": "library",
             "extra": {
@@ -5728,7 +5728,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v4.46.0"
+                "source": "https://github.com/statamic/cms/tree/v4.51.0"
             },
             "funding": [
                 {
@@ -5736,7 +5736,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-01-25T18:46:32+00:00"
+            "time": "2024-02-28T15:24:29+00:00"
         },
         {
             "name": "statamic/ssg",
@@ -5947,16 +5947,16 @@
         },
         {
             "name": "studio1902/statamic-peak-seo",
-            "version": "v8.1.0",
+            "version": "v8.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/studio1902/statamic-peak-seo.git",
-                "reference": "0207f24b9d685785dd6d5ed7e9dc752ebfd4e3c7"
+                "reference": "b46ddbbb2583829eb5d2b162363ed4ddc3fabded"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/studio1902/statamic-peak-seo/zipball/0207f24b9d685785dd6d5ed7e9dc752ebfd4e3c7",
-                "reference": "0207f24b9d685785dd6d5ed7e9dc752ebfd4e3c7",
+                "url": "https://api.github.com/repos/studio1902/statamic-peak-seo/zipball/b46ddbbb2583829eb5d2b162363ed4ddc3fabded",
+                "reference": "b46ddbbb2583829eb5d2b162363ed4ddc3fabded",
                 "shasum": ""
             },
             "type": "library",
@@ -5979,7 +5979,7 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/studio1902/statamic-peak-seo/issues",
-                "source": "https://github.com/studio1902/statamic-peak-seo/tree/v8.1.0"
+                "source": "https://github.com/studio1902/statamic-peak-seo/tree/v8.2.0"
             },
             "funding": [
                 {
@@ -5987,21 +5987,24 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-01-26T16:26:48+00:00"
+            "time": "2024-02-14T19:15:03+00:00"
         },
         {
             "name": "studio1902/statamic-peak-tools",
-            "version": "v4.4.0",
+            "version": "v5.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/studio1902/statamic-peak-tools.git",
-                "reference": "9ff839d45f9f73a1b1c58c08b2aa2d9176b6f60e"
+                "reference": "23d6fc382fffb1a9954bfc9a36cebfcb64d537be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/studio1902/statamic-peak-tools/zipball/9ff839d45f9f73a1b1c58c08b2aa2d9176b6f60e",
-                "reference": "9ff839d45f9f73a1b1c58c08b2aa2d9176b6f60e",
+                "url": "https://api.github.com/repos/studio1902/statamic-peak-tools/zipball/23d6fc382fffb1a9954bfc9a36cebfcb64d537be",
+                "reference": "23d6fc382fffb1a9954bfc9a36cebfcb64d537be",
                 "shasum": ""
+            },
+            "require": {
+                "statamic/cms": "^4.0"
             },
             "type": "library",
             "extra": {
@@ -6023,7 +6026,7 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/studio1902/statamic-peak-tools/issues",
-                "source": "https://github.com/studio1902/statamic-peak-tools/tree/v4.4.0"
+                "source": "https://github.com/studio1902/statamic-peak-tools/tree/v5.0.1"
             },
             "funding": [
                 {
@@ -6031,7 +6034,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-01-24T11:01:37+00:00"
+            "time": "2024-03-01T13:45:09+00:00"
         },
         {
             "name": "symfony/console",
