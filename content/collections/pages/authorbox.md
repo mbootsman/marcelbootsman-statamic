@@ -44,7 +44,7 @@ page_builder:
         content:
           -
             type: text
-            text: 'Currently Marcel is Marketing Manager for the Dutch Market at '
+            text: 'Currently Marcel is Business Development Manager Dutch & DACH Markets at '
           -
             type: text
             marks:
@@ -129,5 +129,6 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 9ee9b5d3-6247-4f7a-80d0-f5574e1a355a
-updated_at: 1703248262
+updated_at: 1712665944
+parent: home
 ---
