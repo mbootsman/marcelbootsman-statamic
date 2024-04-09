@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Home
 updated_by: 9ee9b5d3-6247-4f7a-80d0-f5574e1a355a
-updated_at: 1712570867
+updated_at: 1712665438
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -119,7 +119,7 @@ page_builder:
             text: 'walk from my hometown to Berlin for WordCamp Europe 2019'
           -
             type: text
-            text: '. Soon after that event, I made the decision to stop my work at nostromo.nl, and work as Marketing Manager Dutch Market for '
+            text: '. Soon after that event, I made the decision to stop my work at nostromo.nl, and work for '
           -
             type: text
             marks:
@@ -133,7 +133,7 @@ page_builder:
             text: Kinsta
           -
             type: text
-            text: ' since April 2019. 🚀'
+            text: ' since April 2019. Currently I am Business Development Manager Dutch and DACH Markets. 🚀'
     type: article
     enabled: true
   -
