@@ -14,6 +14,7 @@ preferences:
         - date
         - seo_description
         - status
+      after_save: continue_editing
     blog:
       columns:
         - title

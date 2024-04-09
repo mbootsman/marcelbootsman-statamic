@@ -10,9 +10,10 @@ data:
   breadcrumbs: false
   use_social_image_generation: true
   social_images_collections:
-    - pages
     - blog
     - notes
+    - pages
+  use_sitemap: true
   sitemap_collections:
     - pages
     - notes
