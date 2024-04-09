@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Home
 updated_by: 9ee9b5d3-6247-4f7a-80d0-f5574e1a355a
-updated_at: 1707489005
+updated_at: 1712570867
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -974,6 +974,31 @@ page_builder:
       -
         type: bulletList
         content:
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'WordCamp Vienna 2024'
+                  -
+                    type: hardBreak
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://vienna.wordcamp.org/2024/session/the-advantages-of-combining-two-absolute-heroes-wordpress-and-a-static-site-generator/'
+                          rel: null
+                          target: null
+                          title: null
+                    text: 'The advantages of combining two absolute heroes, WordPress and a Static Site Generator'
           -
             type: listItem
             content:

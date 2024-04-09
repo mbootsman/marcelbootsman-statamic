@@ -19,7 +19,8 @@ return [
 
     // Cookie banner
     'consent_accept'                     => 'Accepteer',
-    'consent_ads'                        => 'Advertenties & tracking',
+    'consent_reject_all' => 'Reject all',
+	'consent_ads'                        => 'Advertenties & tracking',
     'consent_ads_explanation'            => 'Third party cookies benodigd voor het retargeten en plaatsen van advertenties.',
     'consent_analytics'                  => 'Analytics',
     'consent_analytics_explanation'      => 'Third party cookies die nodig zijn voor het meten van geanomiseerde bezoekersstatistieken.',

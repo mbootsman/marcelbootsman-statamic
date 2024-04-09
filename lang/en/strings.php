@@ -19,7 +19,8 @@ return [
 
     // Cookie banner
     'consent_accept'                     => 'Accept',
-    'consent_ads'                        => 'Ads & tracking',
+    'consent_reject_all' => 'Reject all',
+	'consent_ads'                        => 'Ads & tracking',
     'consent_ads_explanation'            => 'Third party cookies used for advertisement.',
     'consent_analytics'                  => 'Analytics',
     'consent_analytics_explanation'      => 'Third party cookies used for analytics.',
