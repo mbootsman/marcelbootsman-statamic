@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Ice on a canal with a sunrise on the background'
+  exempt_from_alt: false
 size: 120694
 last_modified: 1689509244
 width: 1200

@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Field with snow with view on Delft'
+  exempt_from_alt: false
 size: 197227
 last_modified: 1689509245
 width: 1200

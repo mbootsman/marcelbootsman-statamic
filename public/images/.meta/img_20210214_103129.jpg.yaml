@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'A crow in a tree with some snow in high grass and bushes'
+  exempt_from_alt: false
 size: 248325
 last_modified: 1689509244
 width: 1200

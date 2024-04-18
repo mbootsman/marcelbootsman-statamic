@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Sunrise through a classic bridge over a frozen canal. In the blue sky a white stripe is seen from a plane.'
+  exempt_from_alt: false
 size: 146284
 last_modified: 1689509244
 width: 1200

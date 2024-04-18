@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Sunrise through high grass and a frozen canal behind it.'
+  exempt_from_alt: false
 size: 274170
 last_modified: 1689509244
 width: 1200

@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Pile of WordPress Buttons'
+  exempt_from_alt: false
 size: 245926
 last_modified: 1712574433
 width: 1536

@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Sunrise with the Rotterdam skyline seen next to it.'
+  exempt_from_alt: false
 size: 150604
 last_modified: 1689509244
 width: 1200

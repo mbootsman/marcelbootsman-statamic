@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Skyline of Rotterdam seen through some high grass and a frozen canal.'
+  exempt_from_alt: false
 size: 148894
 last_modified: 1689509244
 width: 1200

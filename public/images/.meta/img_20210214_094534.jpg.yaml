@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Snowy field and a cloudy sunrise'
+  exempt_from_alt: false
 size: 195454
 last_modified: 1689509243
 width: 1200

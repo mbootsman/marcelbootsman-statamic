@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Snowy fields'
+  exempt_from_alt: false
 size: 191363
 last_modified: 1689509244
 width: 1200

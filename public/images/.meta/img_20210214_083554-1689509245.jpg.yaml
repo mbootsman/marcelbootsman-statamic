@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Snow landscape with sunrise'
+  exempt_from_alt: false
 size: 203596
 last_modified: 1689509245
 width: 1200

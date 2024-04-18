@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Icy road with the sun behind thin clouds'
+  exempt_from_alt: false
 size: 242970
 last_modified: 1689509244
 width: 900

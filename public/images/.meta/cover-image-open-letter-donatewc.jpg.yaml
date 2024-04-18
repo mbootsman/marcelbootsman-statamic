@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Image of three air mail envelopes'
+  exempt_from_alt: false
 size: 64719
 last_modified: 1705409238
 width: 860

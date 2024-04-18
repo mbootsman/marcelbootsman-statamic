@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Image of a sunrise behind high grass with a bridge on the left and frozen canal on the right.'
+  exempt_from_alt: false
 size: 234090
 last_modified: 1689509244
 width: 1200

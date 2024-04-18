@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Sunrise through the trees'
+  exempt_from_alt: false
 size: 277395
 last_modified: 1689509244
 width: 1200

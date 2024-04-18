@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Image of buttons on a remote control. Lang, subtitle buttons can be seen.'
+  exempt_from_alt: false
 size: 81062
 last_modified: 1706624596
 width: 860

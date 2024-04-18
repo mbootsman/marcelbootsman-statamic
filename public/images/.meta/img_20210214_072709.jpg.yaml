@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Frozen canal with snow on the side and a distant sunrise'
+  exempt_from_alt: false
 size: 116777
 last_modified: 1689509244
 width: 1200

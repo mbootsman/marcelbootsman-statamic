@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Just before sunrise on a snowy landscape'
+  exempt_from_alt: false
 size: 129021
 last_modified: 1689509244
 width: 1200

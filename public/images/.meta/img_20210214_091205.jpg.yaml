@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Snowy road and sunrise through the trees'
+  exempt_from_alt: false
 size: 474814
 last_modified: 1689509243
 width: 1200

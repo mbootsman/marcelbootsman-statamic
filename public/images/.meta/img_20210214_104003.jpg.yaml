@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'People skating on ice'
+  exempt_from_alt: false
 size: 147125
 last_modified: 1689509244
 width: 1200

@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Snowy field with a road in the middle and cut trees'
+  exempt_from_alt: false
 size: 127254
 last_modified: 1689509243
 width: 900

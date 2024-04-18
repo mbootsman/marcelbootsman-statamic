@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Image of the Oude Rijn on a bridge in Alphen aan den Rijn'
+  exempt_from_alt: false
 size: 237591
 last_modified: 1689512603
 width: 1200

@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Dawn on a snowy landscape'
+  exempt_from_alt: false
 size: 184470
 last_modified: 1689509244
 width: 1200

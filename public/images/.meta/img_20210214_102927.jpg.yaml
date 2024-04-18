@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Sunrise with a road alongside a frozen canal'
+  exempt_from_alt: false
 size: 186687
 last_modified: 1689509243
 width: 1200

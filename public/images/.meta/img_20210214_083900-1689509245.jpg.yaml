@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Image of ice in the Schie near Schipluiden taken from the Kandelaarbrug'
+  exempt_from_alt: false
 size: 123077
 last_modified: 1689509245
 width: 1200

@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'People skating on ice on a canal between residential buildings in Berkel en Rodenrijs'
+  exempt_from_alt: false
 size: 273357
 last_modified: 1689509244
 width: 1200

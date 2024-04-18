@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Low sun with a halo seen from a bridge (Doenbrug) over the Schie canal with some ice in it.'
+  exempt_from_alt: false
 size: 191769
 last_modified: 1689509244
 width: 1200

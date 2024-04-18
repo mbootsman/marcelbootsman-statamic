@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Snow and ice in a crop field with a small canal'
+  exempt_from_alt: false
 size: 120619
 last_modified: 1689509244
 width: 1200
