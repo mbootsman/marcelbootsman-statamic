@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'A picture of swans in the water with a sunrise in the back'
+  exempt_from_alt: false
 size: 297740
 last_modified: 1689509243
 width: 1200

@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'A white lit fingerprint on a darkblue background, with a dimmed lit circle around it.'
+  exempt_from_alt: false
 size: 67915
 last_modified: 1715679860
 width: 860

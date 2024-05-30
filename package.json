@@ -16,7 +16,8 @@
     "@alpinejs/persist": "^3.12.1",
     "alpinejs": "^3.12.1",
     "focus-visible": "^5.2.0",
-    "prettier-plugin-antlers": "^1.2.5"
+    "prettier-plugin-antlers": "^1.2.5",
+    "puppeteer": "^22.10.0"
   },
   "devDependencies": {
     "@csstools/postcss-oklab-function": "^2.2.2",

@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Ice floating in a river, sunrise in the background'
+  exempt_from_alt: false
 size: 123077
 last_modified: 1689509237
 width: 1200
