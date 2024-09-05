@@ -17,7 +17,7 @@
         "mitydigital/feedamic": "2.5.0",
         "spatie/browsershot": "^4.0",
         "spatie/fork": "^1.2",
-        "spatie/image": "^3.6",
+        "spatie/image": "^3.7",
         "statamic/cms": "5.24.0",
         "statamic/ssg": "3.0.1",
         "studio1902/statamic-peak-browser-appearance": "3.5.0",

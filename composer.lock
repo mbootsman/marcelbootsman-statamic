@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6d562d1b501e43799a0f88447d224615",
+    "content-hash": "5145c06b5e127c56d481bc70099edeb8",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -4636,16 +4636,16 @@
         },
         {
             "name": "spatie/image",
-            "version": "3.6.3",
+            "version": "3.7.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/image.git",
-                "reference": "1d4e9c536f1bf7b88e55555d0a1ae9eee6b76a99"
+                "reference": "62897055045fa74efc6d1bf201c783841a679e99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/image/zipball/1d4e9c536f1bf7b88e55555d0a1ae9eee6b76a99",
-                "reference": "1d4e9c536f1bf7b88e55555d0a1ae9eee6b76a99",
+                "url": "https://api.github.com/repos/spatie/image/zipball/62897055045fa74efc6d1bf201c783841a679e99",
+                "reference": "62897055045fa74efc6d1bf201c783841a679e99",
                 "shasum": ""
             },
             "require": {
@@ -4692,7 +4692,7 @@
                 "spatie"
             ],
             "support": {
-                "source": "https://github.com/spatie/image/tree/3.6.3"
+                "source": "https://github.com/spatie/image/tree/3.7.3"
             },
             "funding": [
                 {
@@ -4704,7 +4704,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-05-24T14:08:59+00:00"
+            "time": "2024-08-06T12:32:33+00:00"
         },
         {
             "name": "spatie/image-optimizer",
