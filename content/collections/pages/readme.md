@@ -298,7 +298,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 9ee9b5d3-6247-4f7a-80d0-f5574e1a355a
-updated_at: 1724229779
+updated_at: 1725548140
 seo_description: 'Read a bit more about me in this personal ReadMe.'
 parent: home
 seo_title: ReadMe
