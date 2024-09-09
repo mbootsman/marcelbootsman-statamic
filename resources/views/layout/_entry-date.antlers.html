@@ -1,0 +1,8 @@
+<span class="block text-sm text-stone-400 my-4">
+    {{ if date }}
+        Published: {{ date }}
+        {{ if date | format("d-m-Y") != updated_at | format("d-m-Y") }}
+            | Updated: {{ updated_at }}
+        {{ /if }}
+    {{ /if }}
+</span>
