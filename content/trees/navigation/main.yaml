@@ -2,16 +2,33 @@ tree:
   -
     id: ae84904c-b9ed-4ee3-bbc3-ae5c00feab7c
     entry: home
+    children:
+      -
+        id: 4226a9dd-fd61-426e-b564-1d28581b6a7e
+        entry: f8fbec21-a66c-46d9-91a4-105225846c53
   -
-    id: 4226a9dd-fd61-426e-b564-1d28581b6a7e
-    entry: f8fbec21-a66c-46d9-91a4-105225846c53
+    id: df1496de-db09-4bbe-b0de-3d14196c7bb6
+    title: Archives
+    children:
+      -
+        id: 05354fee-cd6b-4baf-b170-f4d06afa80a4
+        entry: 9ae2b1eb-c1eb-4728-9bd2-5452b2b082ba
+        title: Blog
+      -
+        id: b44bffba-c17b-49cb-adb1-4bd026ff9611
+        entry: 70c2e2c3-9a33-4128-8238-1b3f69e8c20a
+        title: Notes
+      -
+        id: 6c6bee79-5cc1-4e39-aa14-3161664afa72
+        title: Categories
+        url: /categories
   -
-    id: 05354fee-cd6b-4baf-b170-f4d06afa80a4
-    entry: 9ae2b1eb-c1eb-4728-9bd2-5452b2b082ba
-  -
-    id: b44bffba-c17b-49cb-adb1-4bd026ff9611
-    entry: 70c2e2c3-9a33-4128-8238-1b3f69e8c20a
-  -
-    id: 6c6bee79-5cc1-4e39-aa14-3161664afa72
-    title: Categories
-    url: /categories
+    id: 340e280d-c85e-4a52-a71c-a3286292aaff
+    entry: 9405b000-0f3d-469c-b7a6-4def49cdea06
+    children:
+      -
+        id: 7af9f2aa-f2df-4773-8ed9-1ab77b51d1df
+        entry: b60f0341-6ea2-4fdb-ba9d-cc3f4525b3f0
+      -
+        id: 3c1ea264-473b-44f6-b806-bd65740bafc9
+        entry: 0aff5557-75cb-40d9-a287-5ad71dab287e
