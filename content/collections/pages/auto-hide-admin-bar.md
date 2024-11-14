@@ -8,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: '0.5'
 updated_by: 9ee9b5d3-6247-4f7a-80d0-f5574e1a355a
-updated_at: 1731069985
+updated_at: 1731332092
 template: blog/show
 page_builder:
   -
@@ -39,7 +39,21 @@ page_builder:
             type: hardBreak
           -
             type: text
-            text: 'If you have any comments or questions, please use the GitHub Issues.'
+            text: 'If you have any comments or questions, please use '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://github.com/mbootsman/auto-hide-admin-bar/issues'
+                  rel: null
+                  target: null
+                  title: null
+            text: 'GitHub Issues'
+          -
+            type: text
+            text: .
       -
         type: heading
         attrs:

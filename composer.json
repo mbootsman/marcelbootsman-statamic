@@ -22,7 +22,7 @@
         "statamic/ssg": "^3.0",
         "studio1902/statamic-peak-browser-appearance": "3.5.0",
         "studio1902/statamic-peak-commands": "5.0",
-        "studio1902/statamic-peak-seo": "8.16.0",
+        "studio1902/statamic-peak-seo": "^8.0",
         "studio1902/statamic-peak-tools": "^6.0",
         "torchlight/torchlight-commonmark": "^0.5.5",
         "torchlight/torchlight-laravel": "^0.5.13"
