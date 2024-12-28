@@ -20,7 +20,7 @@
         "spatie/image": "^3.7",
         "statamic/cms": "^5.0",
         "statamic/ssg": "^3.0",
-        "studio1902/statamic-peak-browser-appearance": "3.5.0",
+        "studio1902/statamic-peak-browser-appearance": "^3.0",
         "studio1902/statamic-peak-commands": "5.0",
         "studio1902/statamic-peak-seo": "^8.0",
         "studio1902/statamic-peak-tools": "^6.0",

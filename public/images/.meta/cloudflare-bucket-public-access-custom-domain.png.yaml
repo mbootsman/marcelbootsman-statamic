@@ -1,0 +1,18 @@
+data:
+  alt: |-
+    Screenshot with text: 
+
+    Public access
+    Specify how your bucket can be accessed.
+
+    Custom domains
+    When a custom domain is connected to your bucket, the contents of your bucket will be made publicly accessible through that domain. Websites connected can also benefit from Cloudflare features such as bot management, Access, and Cache. 
+    Domain Status	Access to Bucket	
+    r2.toot.re	Active  Active
+  exempt_from_alt: false
+size: 42754
+last_modified: 1735392965
+width: 1167
+height: 346
+mime_type: image/png
+duration: null

@@ -1,0 +1,15 @@
+data:
+  alt: |-
+    Screenshot with text:
+    Create API Token
+    Test token was successfully created
+    Summary:
+    Permissions: Allows the ability to read, write, and list objects in specific buckets.
+    Buckets: tootre
+  exempt_from_alt: false
+size: 22732
+last_modified: 1735386641
+width: 1096
+height: 309
+mime_type: image/png
+duration: null
