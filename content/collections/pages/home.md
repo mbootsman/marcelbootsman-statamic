@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Home
 updated_by: 9ee9b5d3-6247-4f7a-80d0-f5574e1a355a
-updated_at: 1743603342
+updated_at: 1743606329
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -130,10 +130,10 @@ page_builder:
                   rel: null
                   target: null
                   title: null
-            text: Kinsta
+            text: '{{ job:company }}'
           -
             type: text
-            text: ' since April 2019. Currently I have the role of Partnerships & Community Manager EMEA. 🚀'
+            text: ' since April 2019. Currently I have the role of {{ job:role }}. 🚀'
     type: article
     enabled: true
   -
@@ -608,6 +608,26 @@ page_builder:
       -
         type: bulletList
         content:
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Partnerships & Community Manager EMEA at '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /kinsta
+                          rel: null
+                          target: null
+                          title: null
+                    text: Kinsta
           -
             type: listItem
             content:

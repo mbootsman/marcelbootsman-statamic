@@ -1,0 +1,21 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: role
+            field:
+              type: text
+              display: Role
+          -
+            handle: company
+            field:
+              type: text
+              display: Company
+          -
+            handle: company_link
+            field:
+              type: link
+              display: 'Company Link'
