@@ -18,6 +18,9 @@
         {{ partial src="page_builder/{type}" }}
     {{ /page_builder }}
 
+    {{# Add element to be replaced with commentbox wit giscus #}}
+    <div class="border-2 border-black bg-white rounded-md p-4 my-8  w-full giscus"></div>
+    
     {{# Add authorbox #}}
     {{ get_content from="/authorbox" }}
         <div class="authorbox border-2 rounded-md  bg-stone-200 p-4 my-8  w-full">
