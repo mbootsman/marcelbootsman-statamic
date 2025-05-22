@@ -58,7 +58,7 @@ page_builder:
             text: '{{ job:company }}'
           -
             type: text
-            text: ". where he helps Kinsta's client base grow with "
+            text: '. where he helps clients and partners grow with their business with '
           -
             type: text
             marks:
@@ -69,10 +69,10 @@ page_builder:
                   rel: null
                   target: null
                   title: null
-            text: 'Managed WordPress'
+            text: 'Managed Hosting for WordPress'
           -
             type: text
-            text: ', '
+            text: ', and '
           -
             type: text
             marks:
@@ -86,7 +86,7 @@ page_builder:
             text: 'Application, Database'
           -
             type: text
-            text: ' and '
+            text: ', '
           -
             type: text
             marks:
@@ -129,5 +129,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 9ee9b5d3-6247-4f7a-80d0-f5574e1a355a
-updated_at: 1743606213
+updated_at: 1747906779
 ---
