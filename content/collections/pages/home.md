@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Home
 updated_by: 9ee9b5d3-6247-4f7a-80d0-f5574e1a355a
-updated_at: 1743606329
+updated_at: 1748440354
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -12,7 +12,7 @@ sitemap_priority: '0.5'
 page_builder:
   -
     id: lj38r1m7
-    image: marcel-bootsman.webp
+    image: marcel-bootsman-portretfoto-mei-2025-600x600-rond.png
     type: avatar
     enabled: true
   -
