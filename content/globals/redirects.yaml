@@ -1,1 +1,8 @@
 title: Redirects
+data:
+  redirects:
+    -
+      id: mboqiiwf
+      url_old: /wordcamps
+      internal_url: 3fbc9091-2381-4f94-9e06-3fdc14225273
+      response: 302
