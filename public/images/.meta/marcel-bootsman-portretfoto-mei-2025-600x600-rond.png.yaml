@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Profielfoto van Marcel Bootsman'
+  exempt_from_alt: false
 size: 430306
 last_modified: 1748440324
 width: 600
