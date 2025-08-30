@@ -13,7 +13,7 @@
     </h1>
 
     {{ if featured_image }}
-    {{ glide :src="featured_image" width="1200" height="630" pixelate="5" blur="50" brightness="60" }}
+    {{ glide :src="featured_image" width="1200" height="630" pixelate="5" blur="20" brightness="60" }}
     <img class="absolute" src="{{ url }}" width="{{ width }}" height="{{ height }}">
     {{ /glide }}
     {{ /if }}
