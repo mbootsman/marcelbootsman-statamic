@@ -40,6 +40,8 @@
         }
     })
 </script>
+
+{{ if collection:handle =="blog" or collection:handle=="notes" }}
 <script src="https://giscus.app/client.js"
         data-repo="mbootsman/marcelbootsman-statamic"
         data-repo-id="R_kgDOJxdbgA"
@@ -56,4 +58,5 @@
         crossorigin="anonymous"
         async>
 </script>
+{{ /if }}
 <!-- End: /layout/_footer.antlers.html -->
