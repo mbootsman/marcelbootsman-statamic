@@ -43,26 +43,28 @@ fields:
                   import: article
             work:
               display: Work
-              instructions: null
               icon: money-bank
               fields:
                 -
                   import: article
             connect:
               display: Connect
-              instructions: null
               icon: phone-telephone-call
+              fields:
+                -
+                  import: article
+            attention:
+              display: 'Attention box'
+              icon: alert-warning-exclamation-mark
               fields:
                 -
                   import: article
         avatar:
           display: Avatar
-          instructions: null
           icon: user-avatar
           sets:
             avatar:
               display: Avatar
-              instructions: null
               icon: user-avatar
               fields:
                 -
@@ -70,20 +72,6 @@ fields:
                   field:
                     max_files: 1
                     min_files: 1
-                    mode: list
                     container: images
-                    restrict: false
-                    allow_uploads: true
-                    show_filename: true
-                    show_set_alt: true
                     type: assets
                     display: Image
-                    icon: assets
-                    listable: hidden
-                    instructions_position: above
-                    visibility: visible
-                    hide_display: false
-      instructions_position: above
-      visibility: visible
-      previews: true
-      fullscreen: true

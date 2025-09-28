@@ -39,6 +39,12 @@ module.exports = {
             transitionTimingFunction: {
                 DEFAULT: "cubic-bezier(0.4, 0, 0.2, 1)",
             },
+            spacing: {
+                '1em': '1em',
+                '1.5em': '1.5em',
+                '2em': '2em',
+                '3em': '3em',
+            },
         },
         // Remove the font families you don't want to use.
         fontFamily: {

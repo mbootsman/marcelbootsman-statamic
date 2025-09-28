@@ -1,0 +1,15 @@
+{{#
+@name Attention
+@desc An attention builder block. It extends the prose typography partial.
+@set page.page_builder.attention
+#}}
+
+<!-- /page_builder/_attention.antlers.html -->
+<section class="attention bg-grey col-span-4 md:col-span-3 p-4 mt-2em rounded-md">
+    {{ partial:typography/prose as="article" class="contents" }}
+    {{ article }}
+    {{ partial src="components/{type}" }}
+    {{ /article }}
+    {{ /partial:typography/prose }}
+</section>
+<!-- End: /page_builder/_attention.antlers.html -->
