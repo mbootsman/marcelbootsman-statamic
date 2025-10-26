@@ -58,6 +58,7 @@ tabs:
             field:
               type: slug
               localizable: true
+              validate: 'max:200'
           -
             handle: date
             field:
@@ -70,18 +71,15 @@ tabs:
             handle: featured_image
             field:
               max_files: 1
-              min_files: 1
-              mode: list
-              restrict: false
-              allow_uploads: true
-              show_filename: true
-              show_set_alt: true
               type: assets
               display: 'Featured Image'
-              icon: assets
-              listable: hidden
-              instructions_position: above
-              visibility: visible
-              hide_display: false
               container: images
+          -
+            handle: categories
+            field:
+              type: terms
+              taxonomies:
+                - categories
+              display: Categories
+              mode: select
 title: Notes
