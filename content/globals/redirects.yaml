@@ -5,4 +5,9 @@ data:
       id: mboqiiwf
       url_old: /wordcamps
       internal_url: 3fbc9091-2381-4f94-9e06-3fdc14225273
-      response: 302
+      response: 301
+    -
+      id: mh7o7bid
+      url_old: /events
+      internal_url: 4bc159ec-ed27-4d93-a1eb-394bded5a77d
+      response: 301
